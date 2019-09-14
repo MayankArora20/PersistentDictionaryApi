@@ -36,7 +36,7 @@ public class UploadController
 	        {
 		        try {
 		        	String s=new String(file.getBytes(), "UTF-8");
-		        	StringTokenizer st=new StringTokenizer(s," \t\n\r\f,.:;?![]'");
+		        	StringTokenizer st=new StringTokenizer(s," \t\n\r\f,.:;?![]");
 		        	while(st.hasMoreTokens())
 		        	{
 		        	String k=st.nextToken();
